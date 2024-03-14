@@ -1,0 +1,131 @@
+
+.montserrat-paragraph {
+                 font-family: "Montserrat", sans-serif;
+                 font-optical-sizing: auto;
+                 font-weight: normal;
+                 font-style: normal;
+             }
+.skipto {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    padding: 8px;
+    z-index: 100;
+    background-color: lightsalmon;
+    text-decoration-line: none;
+    color: #7600bc;
+    border-radius: 10px;
+    transition: top 0.3s;
+}
+
+.skipto:focus {
+    top: 10px;
+}
+body
+{
+    background-color: lightgoldenrodyellow;
+}
+
+nav
+{
+    background-color: lightcyan;
+    width: auto;
+    line-height: 30px;
+    border-radius: 10px;
+
+}
+
+.links{
+    margin-left: 10px;
+    margin-right: 10px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+.links a
+{
+    font-weight: bolder;
+    text-decoration-line: none;
+}
+.mountainsofturkey
+{
+    background-image: url("images/dag.jpeg");
+    background-size: cover;
+}
+
+
+ img
+{
+    width: 400px;
+    margin: 0 auto;
+}
+
+ .grid-container
+ {
+     display: grid;
+     justify-items: center;
+ }
+
+.grid-container > h1
+{
+    font-family: "Microsoft JhengHei", serif;
+    font-weight: bolder;
+    
+}
+.grid-container p{
+  border-left: 3px solid red;
+    background-color: lightgreen;
+  padding: 2px;
+}
+
+.imagesOfMountains
+{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-between;
+    grid-row-gap: 10px;
+}
+
+.imagesOfMountains img
+{
+    opacity: 0.3;
+    width: 400px;
+    height: 200px;
+    transition: opacity  .3s;
+}
+
+.imagesOfMountains img:hover
+{
+    opacity: 1;
+    border-radius: 10px;
+}
+
+.riversoftürkiye
+{
+    background-image: url("images/firat.webp");
+    background-size: cover;
+}
+
+.imageofrivers
+{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-between;
+    grid-row-gap: 10px;
+}
+
+.imageofrivers img
+{
+    opacity: 0.3;
+    width: 400px;
+    height: 200px;
+    transition: opacity  .3s;
+}
+
+.imageofrivers img:hover
+{
+    opacity: 1;
+    border-radius: 10px;
+}
